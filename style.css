@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 960px;
+    height: 300px;
+    display: block;
+    margin: 2rem auto;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.balloon {
+    position: absolute;
+    margin: 10rem 30rem;
+    font-size: 30px;
+    display: block;
+}
+
+.balloon:hover {
+    cursor: pointer;
+}
+
+.pop {
+    display: none;
+}
